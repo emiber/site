@@ -25,35 +25,40 @@ body .main {
   padding: 1rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../images/bg_01.webp");
   background-position: center center;
   position: relative;
   overflow: hidden;
 }
-body .main .sun {
+body .main .sun,
+body .main .moon {
+  display: none;
   filter: blur(1.5rem);
-  background-color: yellow;
   position: absolute;
-  animation-name: rotate;
+  animation-name: sunRise;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+  border-radius: 50%;
 }
 body .main .sun {
-  border-radius: 100%;
-  animation-direction: alternate;
+  background-color: yellow;
 }
-@keyframes rotate {
+body .main .moon {
+  background-color: #fff;
+}
+@keyframes sunRise {
   0% {
     width: 2rem;
     height: 2rem;
     top: calc(100% - 2rem);
     left: calc(50% - 2rem);
+    opacity: 0.6;
   }
   100% {
     width: 9rem;
     height: 9rem;
     top: 0;
     left: calc(50% - 9rem);
+    opacity: 1;
   }
 }
 body .main h1 {

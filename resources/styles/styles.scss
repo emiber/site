@@ -13,7 +13,6 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    // overflow: hidden;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -28,32 +27,36 @@ body {
         padding: 1rem;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url('../images/bg_01.webp');
         background-position: center center;
         position: relative;
         overflow: hidden;
 
-
-        .sun {
+        .sun,
+        .moon {
+            display: none;
             filter: blur(1.5rem);
-            background-color: yellow;
             position: absolute;
-            animation-name: rotate;
+            animation-name: sunRise;
             animation-duration: 15s;
             animation-iteration-count: infinite;
+            border-radius: 50%;
         }
 
         .sun {
-            border-radius: 100%;
-            animation-direction: alternate;
+            background-color: yellow;
         }
 
-        @keyframes rotate {
+        .moon {
+            background-color: #fff;
+        }
+
+        @keyframes sunRise {
             0% {
                 width: 2rem;
                 height: 2rem;
                 top: calc(100% - 2rem);
                 left: calc(50% - 2rem);
+                opacity: .6;
             }
 
             100% {
@@ -61,6 +64,7 @@ body {
                 height: 9rem;
                 top: 0;
                 left: calc(50% - 9rem);
+                opacity: 1;
             }
         }
 

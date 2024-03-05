@@ -1,13 +1,15 @@
-const images = ['bg_01.webp', 'bg_02.webp'];
+// axios.get('./resources/data/data.json').then(res => {
+//     console.log(res.data);
+// });
 
-const getBGImage = () => {
-    const index = Math.floor(Math.random() * 2);
-    return images[index];
+const setBackGround = () => {
+    const background = [{ img: 'bg_01.webp', el: 'moon' }, { img: 'bg_02.webp', el: 'sun' }];
+    const index = Date.now() % 2;
+    const main = document.querySelector('.main');
+    const sunMoonEl = document.querySelector(`.${background[index].el}`);
+    main.style.backgroundImage = `url('./resources/images/${background[index].img}')`;
+    sunMoonEl.style.display = 'block';
 }
 
-axios.get('./resources/data/data.json').then(res => {
-    console.log(res.data);
-});
+setBackGround();
 
-const main = document.querySelector('.main');
-main.style.backgroundImage = `url('./resources/images/${getBGImage()}')`;
