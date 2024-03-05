@@ -37,6 +37,7 @@ body .main .moon {
   animation-name: sunRise;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
   border-radius: 50%;
 }
 body .main .sun {
@@ -45,6 +46,11 @@ body .main .sun {
 body .main .moon {
   background-color: #fff;
 }
+body .main h1 {
+  margin: 0;
+  padding: 0;
+}
+
 @keyframes sunRise {
   0% {
     width: 2rem;
@@ -56,12 +62,8 @@ body .main .moon {
   100% {
     width: 9rem;
     height: 9rem;
-    top: 0;
+    top: -2rem;
     left: calc(50% - 9rem);
     opacity: 1;
   }
-}
-body .main h1 {
-  margin: 0;
-  padding: 0;
 }/*# sourceMappingURL=styles.css.map */
