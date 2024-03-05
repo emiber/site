@@ -1,0 +1,24 @@
+{
+    "servicios": [
+        {
+            "title": "Administradores de contenido",
+            "content": "A través de un sito web Ud. puede aumentar la presencia de su empresa en internet y hacer que su negocio crezca, brindándole un valor agregado que lo diferenciará de sus competidores y lo colocará al alcance de todos./nUn sitio web es la manera más rápida y fácil de promocionar su negocio en Internet y su imagen como empresa."
+        },
+        {
+            "title": "Portales web",
+            "content": "A través de un sito web Ud. puede aumentar la presencia de su empresa en internet y hacer que su negocio crezca, brindándole un valor agregado que lo diferenciará de sus competidores y lo colocará al alcance de todos./nUn sitio web es la manera más rápida y fácil de promocionar su negocio en Internet y su imagen como empresa."
+        },
+        {
+            "title": "E-Commerce / Catalogos online",
+            "content": "Poca inversión y altos rendimientos./nPosibilita la modificación general de diseño, apariencia y la generación, modificación y baja de contenidos en forma independiente de terceros./nIngresar fotos por producto en tomas diferentes para mejorar su presentación final./nSimple y fácil de usar."
+        },
+        {
+            "title": "E-m@il marketing & newsletters",
+            "content": "Generación de newsletter auto administrable con envío de mails los cuales pueden ser generados entre otras cosas con el contenido de los catálogos o con las novedades del site."
+        },
+        {
+            "title": "Análisis y desarrollo de sistemas",
+            "content": "Analizando la necesidad de su empresa se realiza una propuesta sobre la solución sobre sistemas web o de escritorio."
+        }
+    ]
+}
