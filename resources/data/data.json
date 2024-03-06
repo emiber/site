@@ -20,5 +20,43 @@
             "title": "Análisis y desarrollo de sistemas",
             "content": "Analizando la necesidad de su empresa se realiza una propuesta sobre la solución sobre sistemas web o de escritorio."
         }
+    ],
+    "background": [
+        {
+            "img": "bg_01.webp",
+            "color": "#fff"
+        },
+        {
+            "img": "bg_02.webp",
+            "color": "#ff0"
+        },
+        {
+            "img": "bg_03.webp",
+            "color": "#fff"
+        },
+        {
+            "img": "bg_04.webp",
+            "color": "#fff"
+        },
+        {
+            "img": "bg_06.webp",
+            "color": "#ff4500"
+        },
+        {
+            "img": "bg_07.webp",
+            "color": "#ff4500"
+        },
+        {
+            "img": "bg_08.webp",
+            "color": "#ff4500"
+        },
+        {
+            "img": "bg_09.webp",
+            "color": "#ff4500"
+        },
+        {
+            "img": "bg_10.webp",
+            "color": "#ff4500"
+        }
     ]
 }

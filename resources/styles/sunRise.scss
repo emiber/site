@@ -1,809 +1,809 @@
 @keyframes sunRise {
     0% {
         left: 0%;
-        top: calc(100% - 0%);
-        width: calc(2rem + (7rem * 0 / 50));
-        height: calc(2rem + (7rem * 0 / 50));
-        opacity: calc(.6 + (.4 * 0/50));
+        top: 100%;
+        width: 2rem;
+        height: 2rem;
+        opacity: 0.6;
     }
 
     1% {
         left: 1%;
-        top: calc(100% - 3.14%);
-        width: calc(2rem + (7rem * 1 / 50));
-        height: calc(2rem + (7rem * 1 / 50));
-        opacity: calc(.6 + (.4 * 1/50));
+        top: 96.86%;
+        width: 2.14rem;
+        height: 2.14rem;
+        opacity: 0.608;
     }
 
     2% {
         left: 2%;
-        top: calc(100% - 6.28%);
-        width: calc(2rem + (7rem * 2 / 50));
-        height: calc(2rem + (7rem * 2 / 50));
-        opacity: calc(.6 + (.4 * 2/50));
+        top: 93.72%;
+        width: 2.28rem;
+        height: 2.28rem;
+        opacity: 0.616;
     }
 
     3% {
         left: 3%;
-        top: calc(100% - 9.41%);
-        width: calc(2rem + (7rem * 3 / 50));
-        height: calc(2rem + (7rem * 3 / 50));
-        opacity: calc(.6 + (.4 * 3/50));
+        top: 90.59%;
+        width: 2.42rem;
+        height: 2.42rem;
+        opacity: 0.624;
     }
 
     4% {
         left: 4%;
-        top: calc(100% - 12.53%);
-        width: calc(2rem + (7rem * 4 / 50));
-        height: calc(2rem + (7rem * 4 / 50));
-        opacity: calc(.6 + (.4 * 4/50));
+        top: 87.47%;
+        width: 2.56rem;
+        height: 2.56rem;
+        opacity: 0.632;
     }
 
     5% {
         left: 5%;
-        top: calc(100% - 15.64%);
-        width: calc(2rem + (7rem * 5 / 50));
-        height: calc(2rem + (7rem * 5 / 50));
-        opacity: calc(.6 + (.4 * 5/50));
+        top: 84.36%;
+        width: 2.7rem;
+        height: 2.7rem;
+        opacity: 0.64;
     }
 
     6% {
         left: 6%;
-        top: calc(100% - 18.74%);
-        width: calc(2rem + (7rem * 6 / 50));
-        height: calc(2rem + (7rem * 6 / 50));
-        opacity: calc(.6 + (.4 * 6/50));
+        top: 81.26%;
+        width: 2.84rem;
+        height: 2.84rem;
+        opacity: 0.648;
     }
 
     7% {
         left: 7%;
-        top: calc(100% - 21.81%);
-        width: calc(2rem + (7rem * 7 / 50));
-        height: calc(2rem + (7rem * 7 / 50));
-        opacity: calc(.6 + (.4 * 7/50));
+        top: 78.19%;
+        width: 2.98rem;
+        height: 2.98rem;
+        opacity: 0.656;
     }
 
     8% {
         left: 8%;
-        top: calc(100% - 24.87%);
-        width: calc(2rem + (7rem * 8 / 50));
-        height: calc(2rem + (7rem * 8 / 50));
-        opacity: calc(.6 + (.4 * 8/50));
+        top: 75.13%;
+        width: 3.12rem;
+        height: 3.12rem;
+        opacity: 0.664;
     }
 
     9% {
         left: 9%;
-        top: calc(100% - 27.9%);
-        width: calc(2rem + (7rem * 9 / 50));
-        height: calc(2rem + (7rem * 9 / 50));
-        opacity: calc(.6 + (.4 * 9/50));
+        top: 72.1%;
+        width: 3.26rem;
+        height: 3.26rem;
+        opacity: 0.672;
     }
 
     10% {
         left: 10%;
-        top: calc(100% - 30.9%);
-        width: calc(2rem + (7rem * 10 / 50));
-        height: calc(2rem + (7rem * 10 / 50));
-        opacity: calc(.6 + (.4 * 10/50));
+        top: 69.1%;
+        width: 3.4rem;
+        height: 3.4rem;
+        opacity: 0.68;
     }
 
     11% {
         left: 11%;
-        top: calc(100% - 33.87%);
-        width: calc(2rem + (7rem * 11 / 50));
-        height: calc(2rem + (7rem * 11 / 50));
-        opacity: calc(.6 + (.4 * 11/50));
+        top: 66.13%;
+        width: 3.54rem;
+        height: 3.54rem;
+        opacity: 0.688;
     }
 
     12% {
         left: 12%;
-        top: calc(100% - 36.81%);
-        width: calc(2rem + (7rem * 12 / 50));
-        height: calc(2rem + (7rem * 12 / 50));
-        opacity: calc(.6 + (.4 * 12/50));
+        top: 63.19%;
+        width: 3.68rem;
+        height: 3.68rem;
+        opacity: 0.696;
     }
 
     13% {
         left: 13%;
-        top: calc(100% - 39.71%);
-        width: calc(2rem + (7rem * 13 / 50));
-        height: calc(2rem + (7rem * 13 / 50));
-        opacity: calc(.6 + (.4 * 13/50));
+        top: 60.29%;
+        width: 3.82rem;
+        height: 3.82rem;
+        opacity: 0.704;
     }
 
     14% {
         left: 14%;
-        top: calc(100% - 42.58%);
-        width: calc(2rem + (7rem * 14 / 50));
-        height: calc(2rem + (7rem * 14 / 50));
-        opacity: calc(.6 + (.4 * 14/50));
+        top: 57.42%;
+        width: 3.96rem;
+        height: 3.96rem;
+        opacity: 0.712;
     }
 
     15% {
         left: 15%;
-        top: calc(100% - 45.4%);
-        width: calc(2rem + (7rem * 15 / 50));
-        height: calc(2rem + (7rem * 15 / 50));
-        opacity: calc(.6 + (.4 * 15/50));
+        top: 54.6%;
+        width: 4.1rem;
+        height: 4.1rem;
+        opacity: 0.72;
     }
 
     16% {
         left: 16%;
-        top: calc(100% - 48.18%);
-        width: calc(2rem + (7rem * 16 / 50));
-        height: calc(2rem + (7rem * 16 / 50));
-        opacity: calc(.6 + (.4 * 16/50));
+        top: 51.82%;
+        width: 4.24rem;
+        height: 4.24rem;
+        opacity: 0.728;
     }
 
     17% {
         left: 17%;
-        top: calc(100% - 50.9%);
-        width: calc(2rem + (7rem * 17 / 50));
-        height: calc(2rem + (7rem * 17 / 50));
-        opacity: calc(.6 + (.4 * 17/50));
+        top: 49.1%;
+        width: 4.38rem;
+        height: 4.38rem;
+        opacity: 0.736;
     }
 
     18% {
         left: 18%;
-        top: calc(100% - 53.58%);
-        width: calc(2rem + (7rem * 18 / 50));
-        height: calc(2rem + (7rem * 18 / 50));
-        opacity: calc(.6 + (.4 * 18/50));
+        top: 46.42%;
+        width: 4.52rem;
+        height: 4.52rem;
+        opacity: 0.744;
     }
 
     19% {
         left: 19%;
-        top: calc(100% - 56.21%);
-        width: calc(2rem + (7rem * 19 / 50));
-        height: calc(2rem + (7rem * 19 / 50));
-        opacity: calc(.6 + (.4 * 19/50));
+        top: 43.79%;
+        width: 4.66rem;
+        height: 4.66rem;
+        opacity: 0.752;
     }
 
     20% {
         left: 20%;
-        top: calc(100% - 58.78%);
-        width: calc(2rem + (7rem * 20 / 50));
-        height: calc(2rem + (7rem * 20 / 50));
-        opacity: calc(.6 + (.4 * 20/50));
+        top: 41.22%;
+        width: 4.8rem;
+        height: 4.8rem;
+        opacity: 0.76;
     }
 
     21% {
         left: 21%;
-        top: calc(100% - 61.29%);
-        width: calc(2rem + (7rem * 21 / 50));
-        height: calc(2rem + (7rem * 21 / 50));
-        opacity: calc(.6 + (.4 * 21/50));
+        top: 38.71%;
+        width: 4.94rem;
+        height: 4.94rem;
+        opacity: 0.768;
     }
 
     22% {
         left: 22%;
-        top: calc(100% - 63.74%);
-        width: calc(2rem + (7rem * 22 / 50));
-        height: calc(2rem + (7rem * 22 / 50));
-        opacity: calc(.6 + (.4 * 22/50));
+        top: 36.26%;
+        width: 5.08rem;
+        height: 5.08rem;
+        opacity: 0.776;
     }
 
     23% {
         left: 23%;
-        top: calc(100% - 66.13%);
-        width: calc(2rem + (7rem * 23 / 50));
-        height: calc(2rem + (7rem * 23 / 50));
-        opacity: calc(.6 + (.4 * 23/50));
+        top: 33.87%;
+        width: 5.22rem;
+        height: 5.22rem;
+        opacity: 0.784;
     }
 
     24% {
         left: 24%;
-        top: calc(100% - 68.45%);
-        width: calc(2rem + (7rem * 24 / 50));
-        height: calc(2rem + (7rem * 24 / 50));
-        opacity: calc(.6 + (.4 * 24/50));
+        top: 31.55%;
+        width: 5.36rem;
+        height: 5.36rem;
+        opacity: 0.792;
     }
 
     25% {
         left: 25%;
-        top: calc(100% - 70.71%);
-        width: calc(2rem + (7rem * 25 / 50));
-        height: calc(2rem + (7rem * 25 / 50));
-        opacity: calc(.6 + (.4 * 25/50));
+        top: 29.29%;
+        width: 5.5rem;
+        height: 5.5rem;
+        opacity: 0.8;
     }
 
     26% {
         left: 26%;
-        top: calc(100% - 72.9%);
-        width: calc(2rem + (7rem * 26 / 50));
-        height: calc(2rem + (7rem * 26 / 50));
-        opacity: calc(.6 + (.4 * 26/50));
+        top: 27.1%;
+        width: 5.64rem;
+        height: 5.64rem;
+        opacity: 0.808;
     }
 
     27% {
         left: 27%;
-        top: calc(100% - 75.01%);
-        width: calc(2rem + (7rem * 27 / 50));
-        height: calc(2rem + (7rem * 27 / 50));
-        opacity: calc(.6 + (.4 * 27/50));
+        top: 24.99%;
+        width: 5.78rem;
+        height: 5.78rem;
+        opacity: 0.816;
     }
 
     28% {
         left: 28%;
-        top: calc(100% - 77.05%);
-        width: calc(2rem + (7rem * 28 / 50));
-        height: calc(2rem + (7rem * 28 / 50));
-        opacity: calc(.6 + (.4 * 28/50));
+        top: 22.95%;
+        width: 5.92rem;
+        height: 5.92rem;
+        opacity: 0.824;
     }
 
     29% {
         left: 29%;
-        top: calc(100% - 79.02%);
-        width: calc(2rem + (7rem * 29 / 50));
-        height: calc(2rem + (7rem * 29 / 50));
-        opacity: calc(.6 + (.4 * 29/50));
+        top: 20.98%;
+        width: 6.06rem;
+        height: 6.06rem;
+        opacity: 0.832;
     }
 
     30% {
         left: 30%;
-        top: calc(100% - 80.9%);
-        width: calc(2rem + (7rem * 30 / 50));
-        height: calc(2rem + (7rem * 30 / 50));
-        opacity: calc(.6 + (.4 * 30/50));
+        top: 19.1%;
+        width: 6.2rem;
+        height: 6.2rem;
+        opacity: 0.84;
     }
 
     31% {
         left: 31%;
-        top: calc(100% - 82.71%);
-        width: calc(2rem + (7rem * 31 / 50));
-        height: calc(2rem + (7rem * 31 / 50));
-        opacity: calc(.6 + (.4 * 31/50));
+        top: 17.29%;
+        width: 6.34rem;
+        height: 6.34rem;
+        opacity: 0.848;
     }
 
     32% {
         left: 32%;
-        top: calc(100% - 84.43%);
-        width: calc(2rem + (7rem * 32 / 50));
-        height: calc(2rem + (7rem * 32 / 50));
-        opacity: calc(.6 + (.4 * 32/50));
+        top: 15.57%;
+        width: 6.48rem;
+        height: 6.48rem;
+        opacity: 0.856;
     }
 
     33% {
         left: 33%;
-        top: calc(100% - 86.07%);
-        width: calc(2rem + (7rem * 33 / 50));
-        height: calc(2rem + (7rem * 33 / 50));
-        opacity: calc(.6 + (.4 * 33/50));
+        top: 13.93%;
+        width: 6.62rem;
+        height: 6.62rem;
+        opacity: 0.864;
     }
 
     34% {
         left: 34%;
-        top: calc(100% - 87.63%);
-        width: calc(2rem + (7rem * 34 / 50));
-        height: calc(2rem + (7rem * 34 / 50));
-        opacity: calc(.6 + (.4 * 34/50));
+        top: 12.37%;
+        width: 6.76rem;
+        height: 6.76rem;
+        opacity: 0.872;
     }
 
     35% {
         left: 35%;
-        top: calc(100% - 89.1%);
-        width: calc(2rem + (7rem * 35 / 50));
-        height: calc(2rem + (7rem * 35 / 50));
-        opacity: calc(.6 + (.4 * 35/50));
+        top: 10.9%;
+        width: 6.9rem;
+        height: 6.9rem;
+        opacity: 0.88;
     }
 
     36% {
         left: 36%;
-        top: calc(100% - 90.48%);
-        width: calc(2rem + (7rem * 36 / 50));
-        height: calc(2rem + (7rem * 36 / 50));
-        opacity: calc(.6 + (.4 * 36/50));
+        top: 9.52%;
+        width: 7.04rem;
+        height: 7.04rem;
+        opacity: 0.888;
     }
 
     37% {
         left: 37%;
-        top: calc(100% - 91.78%);
-        width: calc(2rem + (7rem * 37 / 50));
-        height: calc(2rem + (7rem * 37 / 50));
-        opacity: calc(.6 + (.4 * 37/50));
+        top: 8.22%;
+        width: 7.18rem;
+        height: 7.18rem;
+        opacity: 0.896;
     }
 
     38% {
         left: 38%;
-        top: calc(100% - 92.98%);
-        width: calc(2rem + (7rem * 38 / 50));
-        height: calc(2rem + (7rem * 38 / 50));
-        opacity: calc(.6 + (.4 * 38/50));
+        top: 7.02%;
+        width: 7.32rem;
+        height: 7.32rem;
+        opacity: 0.904;
     }
 
     39% {
         left: 39%;
-        top: calc(100% - 94.09%);
-        width: calc(2rem + (7rem * 39 / 50));
-        height: calc(2rem + (7rem * 39 / 50));
-        opacity: calc(.6 + (.4 * 39/50));
+        top: 5.91%;
+        width: 7.46rem;
+        height: 7.46rem;
+        opacity: 0.912;
     }
 
     40% {
         left: 40%;
-        top: calc(100% - 95.11%);
-        width: calc(2rem + (7rem * 40 / 50));
-        height: calc(2rem + (7rem * 40 / 50));
-        opacity: calc(.6 + (.4 * 40/50));
+        top: 4.89%;
+        width: 7.6rem;
+        height: 7.6rem;
+        opacity: 0.92;
     }
 
     41% {
         left: 41%;
-        top: calc(100% - 96.03%);
-        width: calc(2rem + (7rem * 41 / 50));
-        height: calc(2rem + (7rem * 41 / 50));
-        opacity: calc(.6 + (.4 * 41/50));
+        top: 3.97%;
+        width: 7.74rem;
+        height: 7.74rem;
+        opacity: 0.928;
     }
 
     42% {
         left: 42%;
-        top: calc(100% - 96.86%);
-        width: calc(2rem + (7rem * 42 / 50));
-        height: calc(2rem + (7rem * 42 / 50));
-        opacity: calc(.6 + (.4 * 42/50));
+        top: 3.14%;
+        width: 7.88rem;
+        height: 7.88rem;
+        opacity: 0.936;
     }
 
     43% {
         left: 43%;
-        top: calc(100% - 97.59%);
-        width: calc(2rem + (7rem * 43 / 50));
-        height: calc(2rem + (7rem * 43 / 50));
-        opacity: calc(.6 + (.4 * 43/50));
+        top: 2.41%;
+        width: 8.02rem;
+        height: 8.02rem;
+        opacity: 0.944;
     }
 
     44% {
         left: 44%;
-        top: calc(100% - 98.23%);
-        width: calc(2rem + (7rem * 44 / 50));
-        height: calc(2rem + (7rem * 44 / 50));
-        opacity: calc(.6 + (.4 * 44/50));
+        top: 1.77%;
+        width: 8.16rem;
+        height: 8.16rem;
+        opacity: 0.952;
     }
 
     45% {
         left: 45%;
-        top: calc(100% - 98.77%);
-        width: calc(2rem + (7rem * 45 / 50));
-        height: calc(2rem + (7rem * 45 / 50));
-        opacity: calc(.6 + (.4 * 45/50));
+        top: 1.23%;
+        width: 8.3rem;
+        height: 8.3rem;
+        opacity: 0.96;
     }
 
     46% {
         left: 46%;
-        top: calc(100% - 99.21%);
-        width: calc(2rem + (7rem * 46 / 50));
-        height: calc(2rem + (7rem * 46 / 50));
-        opacity: calc(.6 + (.4 * 46/50));
+        top: 0.790000000000006%;
+        width: 8.44rem;
+        height: 8.44rem;
+        opacity: 0.968;
     }
 
     47% {
         left: 47%;
-        top: calc(100% - 99.56%);
-        width: calc(2rem + (7rem * 47 / 50));
-        height: calc(2rem + (7rem * 47 / 50));
-        opacity: calc(.6 + (.4 * 47/50));
+        top: 0.439999999999998%;
+        width: 8.58rem;
+        height: 8.58rem;
+        opacity: 0.976;
     }
 
     48% {
         left: 48%;
-        top: calc(100% - 99.8%);
-        width: calc(2rem + (7rem * 48 / 50));
-        height: calc(2rem + (7rem * 48 / 50));
-        opacity: calc(.6 + (.4 * 48/50));
+        top: 0.200000000000003%;
+        width: 8.72rem;
+        height: 8.72rem;
+        opacity: 0.984;
     }
 
     49% {
         left: 49%;
-        top: calc(100% - 99.95%);
-        width: calc(2rem + (7rem * 49 / 50));
-        height: calc(2rem + (7rem * 49 / 50));
-        opacity: calc(.6 + (.4 * 49/50));
+        top: 0.0499999999999972%;
+        width: 8.86rem;
+        height: 8.86rem;
+        opacity: 0.992;
     }
 
     50% {
         left: 50%;
-        top: calc(100% - 100%);
-        width: calc(2rem + (7rem * 50 / 50));
-        height: calc(2rem + (7rem * 50 / 50));
-        opacity: calc(.6 + (.4 * 50/50));
+        top: 0%;
+        width: 9rem;
+        height: 9rem;
+        opacity: 1;
     }
 
     51% {
         left: 51%;
-        top: calc(100% - 99.95%);
-        width: calc(2rem + (7rem * 49 / 50));
-        height: calc(2rem + (7rem * 49 / 50));
-        opacity: calc(.6 + (.4 * 49/50));
+        top: 0.0499999999999972%;
+        width: 8.86rem;
+        height: 8.86rem;
+        opacity: 0.992;
     }
 
     52% {
         left: 52%;
-        top: calc(100% - 99.8%);
-        width: calc(2rem + (7rem * 48 / 50));
-        height: calc(2rem + (7rem * 48 / 50));
-        opacity: calc(.6 + (.4 * 48/50));
+        top: 0.200000000000003%;
+        width: 8.72rem;
+        height: 8.72rem;
+        opacity: 0.984;
     }
 
     53% {
         left: 53%;
-        top: calc(100% - 99.56%);
-        width: calc(2rem + (7rem * 47 / 50));
-        height: calc(2rem + (7rem * 47 / 50));
-        opacity: calc(.6 + (.4 * 47/50));
+        top: 0.439999999999998%;
+        width: 8.58rem;
+        height: 8.58rem;
+        opacity: 0.976;
     }
 
     54% {
         left: 54%;
-        top: calc(100% - 99.21%);
-        width: calc(2rem + (7rem * 46 / 50));
-        height: calc(2rem + (7rem * 46 / 50));
-        opacity: calc(.6 + (.4 * 46/50));
+        top: 0.790000000000006%;
+        width: 8.44rem;
+        height: 8.44rem;
+        opacity: 0.968;
     }
 
     55% {
         left: 55%;
-        top: calc(100% - 98.77%);
-        width: calc(2rem + (7rem * 45 / 50));
-        height: calc(2rem + (7rem * 45 / 50));
-        opacity: calc(.6 + (.4 * 45/50));
+        top: 1.23%;
+        width: 8.3rem;
+        height: 8.3rem;
+        opacity: 0.96;
     }
 
     56% {
         left: 56%;
-        top: calc(100% - 98.23%);
-        width: calc(2rem + (7rem * 44 / 50));
-        height: calc(2rem + (7rem * 44 / 50));
-        opacity: calc(.6 + (.4 * 44/50));
+        top: 1.77%;
+        width: 8.16rem;
+        height: 8.16rem;
+        opacity: 0.952;
     }
 
     57% {
         left: 57%;
-        top: calc(100% - 97.59%);
-        width: calc(2rem + (7rem * 43 / 50));
-        height: calc(2rem + (7rem * 43 / 50));
-        opacity: calc(.6 + (.4 * 43/50));
+        top: 2.41%;
+        width: 8.02rem;
+        height: 8.02rem;
+        opacity: 0.944;
     }
 
     58% {
         left: 58%;
-        top: calc(100% - 96.86%);
-        width: calc(2rem + (7rem * 42 / 50));
-        height: calc(2rem + (7rem * 42 / 50));
-        opacity: calc(.6 + (.4 * 42/50));
+        top: 3.14%;
+        width: 7.88rem;
+        height: 7.88rem;
+        opacity: 0.936;
     }
 
     59% {
         left: 59%;
-        top: calc(100% - 96.03%);
-        width: calc(2rem + (7rem * 41 / 50));
-        height: calc(2rem + (7rem * 41 / 50));
-        opacity: calc(.6 + (.4 * 41/50));
+        top: 3.97%;
+        width: 7.74rem;
+        height: 7.74rem;
+        opacity: 0.928;
     }
 
     60% {
         left: 60%;
-        top: calc(100% - 95.11%);
-        width: calc(2rem + (7rem * 40 / 50));
-        height: calc(2rem + (7rem * 40 / 50));
-        opacity: calc(.6 + (.4 * 40/50));
+        top: 4.89%;
+        width: 7.6rem;
+        height: 7.6rem;
+        opacity: 0.92;
     }
 
     61% {
         left: 61%;
-        top: calc(100% - 94.09%);
-        width: calc(2rem + (7rem * 39 / 50));
-        height: calc(2rem + (7rem * 39 / 50));
-        opacity: calc(.6 + (.4 * 39/50));
+        top: 5.91%;
+        width: 7.46rem;
+        height: 7.46rem;
+        opacity: 0.912;
     }
 
     62% {
         left: 62%;
-        top: calc(100% - 92.98%);
-        width: calc(2rem + (7rem * 38 / 50));
-        height: calc(2rem + (7rem * 38 / 50));
-        opacity: calc(.6 + (.4 * 38/50));
+        top: 7.02%;
+        width: 7.32rem;
+        height: 7.32rem;
+        opacity: 0.904;
     }
 
     63% {
         left: 63%;
-        top: calc(100% - 91.78%);
-        width: calc(2rem + (7rem * 37 / 50));
-        height: calc(2rem + (7rem * 37 / 50));
-        opacity: calc(.6 + (.4 * 37/50));
+        top: 8.22%;
+        width: 7.18rem;
+        height: 7.18rem;
+        opacity: 0.896;
     }
 
     64% {
         left: 64%;
-        top: calc(100% - 90.48%);
-        width: calc(2rem + (7rem * 36 / 50));
-        height: calc(2rem + (7rem * 36 / 50));
-        opacity: calc(.6 + (.4 * 36/50));
+        top: 9.52%;
+        width: 7.04rem;
+        height: 7.04rem;
+        opacity: 0.888;
     }
 
     65% {
         left: 65%;
-        top: calc(100% - 89.1%);
-        width: calc(2rem + (7rem * 35 / 50));
-        height: calc(2rem + (7rem * 35 / 50));
-        opacity: calc(.6 + (.4 * 35/50));
+        top: 10.9%;
+        width: 6.9rem;
+        height: 6.9rem;
+        opacity: 0.88;
     }
 
     66% {
         left: 66%;
-        top: calc(100% - 87.63%);
-        width: calc(2rem + (7rem * 34 / 50));
-        height: calc(2rem + (7rem * 34 / 50));
-        opacity: calc(.6 + (.4 * 34/50));
+        top: 12.37%;
+        width: 6.76rem;
+        height: 6.76rem;
+        opacity: 0.872;
     }
 
     67% {
         left: 67%;
-        top: calc(100% - 86.07%);
-        width: calc(2rem + (7rem * 33 / 50));
-        height: calc(2rem + (7rem * 33 / 50));
-        opacity: calc(.6 + (.4 * 33/50));
+        top: 13.93%;
+        width: 6.62rem;
+        height: 6.62rem;
+        opacity: 0.864;
     }
 
     68% {
         left: 68%;
-        top: calc(100% - 84.43%);
-        width: calc(2rem + (7rem * 32 / 50));
-        height: calc(2rem + (7rem * 32 / 50));
-        opacity: calc(.6 + (.4 * 32/50));
+        top: 15.57%;
+        width: 6.48rem;
+        height: 6.48rem;
+        opacity: 0.856;
     }
 
     69% {
         left: 69%;
-        top: calc(100% - 82.71%);
-        width: calc(2rem + (7rem * 31 / 50));
-        height: calc(2rem + (7rem * 31 / 50));
-        opacity: calc(.6 + (.4 * 31/50));
+        top: 17.29%;
+        width: 6.34rem;
+        height: 6.34rem;
+        opacity: 0.848;
     }
 
     70% {
         left: 70%;
-        top: calc(100% - 80.9%);
-        width: calc(2rem + (7rem * 30 / 50));
-        height: calc(2rem + (7rem * 30 / 50));
-        opacity: calc(.6 + (.4 * 30/50));
+        top: 19.1%;
+        width: 6.2rem;
+        height: 6.2rem;
+        opacity: 0.84;
     }
 
     71% {
         left: 71%;
-        top: calc(100% - 79.02%);
-        width: calc(2rem + (7rem * 29 / 50));
-        height: calc(2rem + (7rem * 29 / 50));
-        opacity: calc(.6 + (.4 * 29/50));
+        top: 20.98%;
+        width: 6.06rem;
+        height: 6.06rem;
+        opacity: 0.832;
     }
 
     72% {
         left: 72%;
-        top: calc(100% - 77.05%);
-        width: calc(2rem + (7rem * 28 / 50));
-        height: calc(2rem + (7rem * 28 / 50));
-        opacity: calc(.6 + (.4 * 28/50));
+        top: 22.95%;
+        width: 5.92rem;
+        height: 5.92rem;
+        opacity: 0.824;
     }
 
     73% {
         left: 73%;
-        top: calc(100% - 75.01%);
-        width: calc(2rem + (7rem * 27 / 50));
-        height: calc(2rem + (7rem * 27 / 50));
-        opacity: calc(.6 + (.4 * 27/50));
+        top: 24.99%;
+        width: 5.78rem;
+        height: 5.78rem;
+        opacity: 0.816;
     }
 
     74% {
         left: 74%;
-        top: calc(100% - 72.9%);
-        width: calc(2rem + (7rem * 26 / 50));
-        height: calc(2rem + (7rem * 26 / 50));
-        opacity: calc(.6 + (.4 * 26/50));
+        top: 27.1%;
+        width: 5.64rem;
+        height: 5.64rem;
+        opacity: 0.808;
     }
 
     75% {
         left: 75%;
-        top: calc(100% - 70.71%);
-        width: calc(2rem + (7rem * 25 / 50));
-        height: calc(2rem + (7rem * 25 / 50));
-        opacity: calc(.6 + (.4 * 25/50));
+        top: 29.29%;
+        width: 5.5rem;
+        height: 5.5rem;
+        opacity: 0.8;
     }
 
     76% {
         left: 76%;
-        top: calc(100% - 68.45%);
-        width: calc(2rem + (7rem * 24 / 50));
-        height: calc(2rem + (7rem * 24 / 50));
-        opacity: calc(.6 + (.4 * 24/50));
+        top: 31.55%;
+        width: 5.36rem;
+        height: 5.36rem;
+        opacity: 0.792;
     }
 
     77% {
         left: 77%;
-        top: calc(100% - 66.13%);
-        width: calc(2rem + (7rem * 23 / 50));
-        height: calc(2rem + (7rem * 23 / 50));
-        opacity: calc(.6 + (.4 * 23/50));
+        top: 33.87%;
+        width: 5.22rem;
+        height: 5.22rem;
+        opacity: 0.784;
     }
 
     78% {
         left: 78%;
-        top: calc(100% - 63.74%);
-        width: calc(2rem + (7rem * 22 / 50));
-        height: calc(2rem + (7rem * 22 / 50));
-        opacity: calc(.6 + (.4 * 22/50));
+        top: 36.26%;
+        width: 5.08rem;
+        height: 5.08rem;
+        opacity: 0.776;
     }
 
     79% {
         left: 79%;
-        top: calc(100% - 61.29%);
-        width: calc(2rem + (7rem * 21 / 50));
-        height: calc(2rem + (7rem * 21 / 50));
-        opacity: calc(.6 + (.4 * 21/50));
+        top: 38.71%;
+        width: 4.94rem;
+        height: 4.94rem;
+        opacity: 0.768;
     }
 
     80% {
         left: 80%;
-        top: calc(100% - 58.78%);
-        width: calc(2rem + (7rem * 20 / 50));
-        height: calc(2rem + (7rem * 20 / 50));
-        opacity: calc(.6 + (.4 * 20/50));
+        top: 41.22%;
+        width: 4.8rem;
+        height: 4.8rem;
+        opacity: 0.76;
     }
 
     81% {
         left: 81%;
-        top: calc(100% - 56.21%);
-        width: calc(2rem + (7rem * 19 / 50));
-        height: calc(2rem + (7rem * 19 / 50));
-        opacity: calc(.6 + (.4 * 19/50));
+        top: 43.79%;
+        width: 4.66rem;
+        height: 4.66rem;
+        opacity: 0.752;
     }
 
     82% {
         left: 82%;
-        top: calc(100% - 53.58%);
-        width: calc(2rem + (7rem * 18 / 50));
-        height: calc(2rem + (7rem * 18 / 50));
-        opacity: calc(.6 + (.4 * 18/50));
+        top: 46.42%;
+        width: 4.52rem;
+        height: 4.52rem;
+        opacity: 0.744;
     }
 
     83% {
         left: 83%;
-        top: calc(100% - 50.9%);
-        width: calc(2rem + (7rem * 17 / 50));
-        height: calc(2rem + (7rem * 17 / 50));
-        opacity: calc(.6 + (.4 * 17/50));
+        top: 49.1%;
+        width: 4.38rem;
+        height: 4.38rem;
+        opacity: 0.736;
     }
 
     84% {
         left: 84%;
-        top: calc(100% - 48.18%);
-        width: calc(2rem + (7rem * 16 / 50));
-        height: calc(2rem + (7rem * 16 / 50));
-        opacity: calc(.6 + (.4 * 16/50));
+        top: 51.82%;
+        width: 4.24rem;
+        height: 4.24rem;
+        opacity: 0.728;
     }
 
     85% {
         left: 85%;
-        top: calc(100% - 45.4%);
-        width: calc(2rem + (7rem * 15 / 50));
-        height: calc(2rem + (7rem * 15 / 50));
-        opacity: calc(.6 + (.4 * 15/50));
+        top: 54.6%;
+        width: 4.1rem;
+        height: 4.1rem;
+        opacity: 0.72;
     }
 
     86% {
         left: 86%;
-        top: calc(100% - 42.58%);
-        width: calc(2rem + (7rem * 14 / 50));
-        height: calc(2rem + (7rem * 14 / 50));
-        opacity: calc(.6 + (.4 * 14/50));
+        top: 57.42%;
+        width: 3.96rem;
+        height: 3.96rem;
+        opacity: 0.712;
     }
 
     87% {
         left: 87%;
-        top: calc(100% - 39.71%);
-        width: calc(2rem + (7rem * 13 / 50));
-        height: calc(2rem + (7rem * 13 / 50));
-        opacity: calc(.6 + (.4 * 13/50));
+        top: 60.29%;
+        width: 3.82rem;
+        height: 3.82rem;
+        opacity: 0.704;
     }
 
     88% {
         left: 88%;
-        top: calc(100% - 36.81%);
-        width: calc(2rem + (7rem * 12 / 50));
-        height: calc(2rem + (7rem * 12 / 50));
-        opacity: calc(.6 + (.4 * 12/50));
+        top: 63.19%;
+        width: 3.68rem;
+        height: 3.68rem;
+        opacity: 0.696;
     }
 
     89% {
         left: 89%;
-        top: calc(100% - 33.87%);
-        width: calc(2rem + (7rem * 11 / 50));
-        height: calc(2rem + (7rem * 11 / 50));
-        opacity: calc(.6 + (.4 * 11/50));
+        top: 66.13%;
+        width: 3.54rem;
+        height: 3.54rem;
+        opacity: 0.688;
     }
 
     90% {
         left: 90%;
-        top: calc(100% - 30.9%);
-        width: calc(2rem + (7rem * 10 / 50));
-        height: calc(2rem + (7rem * 10 / 50));
-        opacity: calc(.6 + (.4 * 10/50));
+        top: 69.1%;
+        width: 3.4rem;
+        height: 3.4rem;
+        opacity: 0.68;
     }
 
     91% {
         left: 91%;
-        top: calc(100% - 27.9%);
-        width: calc(2rem + (7rem * 9 / 50));
-        height: calc(2rem + (7rem * 9 / 50));
-        opacity: calc(.6 + (.4 * 9/50));
+        top: 72.1%;
+        width: 3.26rem;
+        height: 3.26rem;
+        opacity: 0.672;
     }
 
     92% {
         left: 92%;
-        top: calc(100% - 24.87%);
-        width: calc(2rem + (7rem * 8 / 50));
-        height: calc(2rem + (7rem * 8 / 50));
-        opacity: calc(.6 + (.4 * 8/50));
+        top: 75.13%;
+        width: 3.12rem;
+        height: 3.12rem;
+        opacity: 0.664;
     }
 
     93% {
         left: 93%;
-        top: calc(100% - 21.81%);
-        width: calc(2rem + (7rem * 7 / 50));
-        height: calc(2rem + (7rem * 7 / 50));
-        opacity: calc(.6 + (.4 * 7/50));
+        top: 78.19%;
+        width: 2.98rem;
+        height: 2.98rem;
+        opacity: 0.656;
     }
 
     94% {
         left: 94%;
-        top: calc(100% - 18.74%);
-        width: calc(2rem + (7rem * 6 / 50));
-        height: calc(2rem + (7rem * 6 / 50));
-        opacity: calc(.6 + (.4 * 6/50));
+        top: 81.26%;
+        width: 2.84rem;
+        height: 2.84rem;
+        opacity: 0.648;
     }
 
     95% {
         left: 95%;
-        top: calc(100% - 15.64%);
-        width: calc(2rem + (7rem * 5 / 50));
-        height: calc(2rem + (7rem * 5 / 50));
-        opacity: calc(.6 + (.4 * 5/50));
+        top: 84.36%;
+        width: 2.7rem;
+        height: 2.7rem;
+        opacity: 0.64;
     }
 
     96% {
         left: 96%;
-        top: calc(100% - 12.53%);
-        width: calc(2rem + (7rem * 4 / 50));
-        height: calc(2rem + (7rem * 4 / 50));
-        opacity: calc(.6 + (.4 * 4/50));
+        top: 87.47%;
+        width: 2.56rem;
+        height: 2.56rem;
+        opacity: 0.632;
     }
 
     97% {
         left: 97%;
-        top: calc(100% - 9.41%);
-        width: calc(2rem + (7rem * 3 / 50));
-        height: calc(2rem + (7rem * 3 / 50));
-        opacity: calc(.6 + (.4 * 3/50));
+        top: 90.59%;
+        width: 2.42rem;
+        height: 2.42rem;
+        opacity: 0.624;
     }
 
     98% {
         left: 98%;
-        top: calc(100% - 6.28%);
-        width: calc(2rem + (7rem * 2 / 50));
-        height: calc(2rem + (7rem * 2 / 50));
-        opacity: calc(.6 + (.4 * 2/50));
+        top: 93.72%;
+        width: 2.28rem;
+        height: 2.28rem;
+        opacity: 0.616;
     }
 
     99% {
         left: 99%;
-        top: calc(100% - 3.14%);
-        width: calc(2rem + (7rem * 1 / 50));
-        height: calc(2rem + (7rem * 1 / 50));
-        opacity: calc(.6 + (.4 * 1/50));
+        top: 96.86%;
+        width: 2.14rem;
+        height: 2.14rem;
+        opacity: 0.608;
     }
 
     100% {
         left: 100%;
-        top: calc(100% - 0%);
-        width: calc(2rem + (7rem * 0 / 50));
-        height: calc(2rem + (7rem * 0 / 50));
-        opacity: calc(.6 + (.4 * 0/50));
+        top: 100%;
+        width: 2rem;
+        height: 2rem;
+        opacity: 0.6;
     }
 }

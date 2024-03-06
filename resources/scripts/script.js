@@ -1,28 +1,21 @@
-// axios.get('./resources/data/data.json').then(res => {
-//     console.log(res.data);
-// });
+let data = {};
 
+axios.get('./resources/data/data.json').then(res => {
+    data = res.data;
 
-const background = [
-    { img: 'bg_01.webp', el: 'moon' },
-    { img: 'bg_02.webp', el: 'sun' },
-    { img: 'bg_03.webp', el: 'moon' },
-    { img: 'bg_04.webp', el: 'moon' },
-    { img: 'bg_06.webp', el: 'sunRed' },
-    { img: 'bg_07.webp', el: 'sun' },
-    { img: 'bg_08.webp', el: 'sun' },
-    { img: 'bg_09.webp', el: 'sun' },
-    { img: 'bg_10.webp', el: 'sun' },
-];
+    setBackGround(data.background);
+    setInterval(() => { setSunMoonColor(); }, 15000);
+});
 
-const setBackGround = () => {
-    // const background = [{ img: 'bg_01.webp', el: 'moon' }, { img: 'bg_02.webp', el: 'sun' }];
+const setBackGround = (background) => {
     const index = Date.now() % background.length;
     const main = document.querySelector('.main');
-    const sunMoonEl = document.querySelector(`.${background[index].el}`);
     main.style.backgroundImage = `url('./resources/images/${background[index].img}')`;
-    sunMoonEl.style.display = 'block';
+    setSunMoonColor(background[index].color);
 }
 
-setBackGround();
-
+const setSunMoonColor = (color) => {
+    const sunMoon = document.querySelector('.sunMoon');
+    const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+    sunMoon.style.backgroundColor = color ? color : '#'.concat(randomColor);
+}
