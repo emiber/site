@@ -43,6 +43,7 @@
     width: 2rem;
     height: 2rem;
     opacity: 0.6;
+    filter: blur(1rem);
   }
   1% {
     left: 1%;
@@ -680,6 +681,7 @@
     width: 3.26rem;
     height: 3.26rem;
     opacity: 0.672;
+    filter: blur(1rem);
   }
   92% {
     left: 92%;
