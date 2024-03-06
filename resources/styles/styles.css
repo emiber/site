@@ -1,5 +1,5 @@
-@import url("fonts.scss");
-@import url("sunRise.scss");
+@import url("fonts.css");
+@import url("sunRise.css");
 html,
 body {
   height: 100vh;
