@@ -37,26 +37,6 @@
         {
             "img": "bg_04.webp",
             "color": "#fff"
-        },
-        {
-            "img": "bg_06.webp",
-            "color": "#ff4500"
-        },
-        {
-            "img": "bg_07.webp",
-            "color": "#ff4500"
-        },
-        {
-            "img": "bg_08.webp",
-            "color": "#ff4500"
-        },
-        {
-            "img": "bg_09.webp",
-            "color": "#ff4500"
-        },
-        {
-            "img": "bg_10.webp",
-            "color": "#ff4500"
         }
     ]
 }
