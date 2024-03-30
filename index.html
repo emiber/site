@@ -6,17 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="resources/images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Emiliano Berestovoy</title>
     <link media="all" rel="stylesheet" href="resources/styles/styles.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 
 <body>
     <div class="sunMoon"></div>
     <div class="main">
-        <h1>Emiliano Berestovoy</h1>
+        <div class="topBar" id="app">
+            <h1>Emiliano Berestovoy</h1>
+            <button @click="openMenu()" class="menuBtn">
+                <span class="material-symbols-outlined" v-if="!menuOpen">
+                    menu
+                </span>
+                <span class="material-symbols-outlined" v-if="menuOpen">
+                    close
+                </span>
+            </button>
+            <div class="menu" :class="{menuOpen: menuOpen}">
+                <ul>
+                    <li>Opt 1</li>
+                    <li>Opt 2</li>
+                    <li>Opt 3</li>
+                    <li>Opt 4</li>
+                    <li>Opt 5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+            <h1>Emiliano Berestovoy</h1><br><br><br><br>
+        </div>
     </div>
+
     <script src="resources/scripts/script.js"></script>
 </body>
 

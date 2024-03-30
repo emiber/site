@@ -1,10 +1,12 @@
+const { createApp, ref } = Vue
+
 let data = {};
 
 axios.get('./resources/data/data.json').then(res => {
     data = res.data;
 
     setBackGround(data.background);
-    setInterval(() => { setSunMoonColor(); }, 15000);
+    setInterval(() => { setSunMoonColor(); }, 60000);
 });
 
 const setBackGround = (background) => {
@@ -19,3 +21,19 @@ const setSunMoonColor = (color) => {
     const randomColor = Math.floor(Math.random() * 16777215).toString(16);
     sunMoon.style.backgroundColor = color ? color : '#'.concat(randomColor);
 }
+
+
+createApp({
+    setup() {
+    },
+    data() {
+        return {
+            menuOpen: false
+        }
+    },
+    methods: {
+        openMenu() {
+            this.menuOpen = !this.menuOpen;
+        }
+    },
+}).mount('#app')
